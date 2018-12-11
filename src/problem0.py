@@ -351,7 +351,7 @@ def problem0c(circle, n, window):
         x = circle.center.x + 2*circle.radius*(k+1)
         circles = rg.Circle(rg.Point(x,circle.center.y),circle.radius)
         circles.attach_to(window)
-    window.render(0.5)
+        window.render(0.5)
 
 
 ###############################################################################
